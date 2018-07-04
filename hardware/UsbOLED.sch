@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1017,262 +1017,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="adafruit">
-<packages>
-<package name="1X06">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06-CLEAN">
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06-CLEANBIG">
-<pad name="1" x="-6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06-BIG">
-<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06-BIGLOCK">
-<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="-0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="-0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="-0.127" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-</package>
-<package name="1X06-3.5MM">
-<wire x1="-10.5" y1="3.4" x2="-10.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-10.5" y1="-2.5" x2="-10.5" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="-10.5" y1="-3.6" x2="10.5" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="10.5" y1="-3.6" x2="10.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="10.5" y1="-2.5" x2="10.5" y2="3.4" width="0.127" layer="21"/>
-<wire x1="10.5" y1="3.4" x2="-10.5" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-10.5" y1="-2.5" x2="10.5" y2="-2.5" width="0.127" layer="21"/>
-<pad name="5" x="5.25" y="0" drill="1" diameter="2.1844"/>
-<pad name="4" x="1.75" y="0" drill="1" diameter="2.1844"/>
-<pad name="3" x="-1.75" y="0" drill="1" diameter="2.1844"/>
-<pad name="2" x="-5.25" y="0" drill="1" diameter="2.1844"/>
-<pad name="1" x="-8.75" y="0" drill="1" diameter="2.1844"/>
-<pad name="6" x="8.75" y="0" drill="1" diameter="2.1844"/>
-<text x="7.87" y="-5.81" size="1.27" layer="25" rot="R180">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="PINHD6">
-<wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-1X6" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="1X06">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CLEAN" package="1X06-CLEAN">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CB" package="1X06-CLEANBIG">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B" package="1X06-BIG">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LOCK" package="1X06-BIGLOCK">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3.5MM" package="1X06-3.5MM">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13451,6 +13195,107 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="headers(.1in)">
+<packages>
+<package name="1X6">
+<rectangle x1="-0.3175" y1="-0.3175" x2="0.3175" y2="0.3175" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.778"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778"/>
+<rectangle x1="2.2225" y1="-0.3175" x2="2.8575" y2="0.3175" layer="21"/>
+<rectangle x1="4.7625" y1="-0.3175" x2="5.3975" y2="0.3175" layer="21"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.778"/>
+<rectangle x1="7.3025" y1="-0.3175" x2="7.9375" y2="0.3175" layer="21"/>
+<rectangle x1="9.8425" y1="-0.3175" x2="10.4775" y2="0.3175" layer="21"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.778"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.778"/>
+<rectangle x1="12.3825" y1="-0.3175" x2="13.0175" y2="0.3175" layer="21"/>
+</package>
+<package name="1X6.LOCK">
+<rectangle x1="-0.3175" y1="-0.3175" x2="0.3175" y2="0.3175" layer="21"/>
+<pad name="1" x="0" y="-0.127" drill="1.016" diameter="1.778"/>
+<pad name="2" x="2.54" y="0.127" drill="1.016" diameter="1.778"/>
+<rectangle x1="2.2225" y1="-0.3175" x2="2.8575" y2="0.3175" layer="21"/>
+<rectangle x1="4.7625" y1="-0.3175" x2="5.3975" y2="0.3175" layer="21"/>
+<pad name="3" x="5.08" y="-0.127" drill="1.016" diameter="1.778"/>
+<pad name="4" x="7.62" y="0.127" drill="1.016" diameter="1.778"/>
+<rectangle x1="7.3025" y1="-0.3175" x2="7.9375" y2="0.3175" layer="21"/>
+<rectangle x1="9.8425" y1="-0.3175" x2="10.4775" y2="0.3175" layer="21"/>
+<pad name="5" x="10.16" y="-0.127" drill="1.016" diameter="1.778"/>
+<pad name="6" x="12.7" y="0.127" drill="1.016" diameter="1.778"/>
+<rectangle x1="12.3825" y1="-0.3175" x2="13.0175" y2="0.3175" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1X6_HEADER">
+<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="94" font="vector" rot="MR0" align="center">01</text>
+<text x="-2.54" y="10.795" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-9.525" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="2.54" y="7.62" visible="off" length="point" rot="R180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">02</text>
+<pin name="2" x="2.54" y="5.08" visible="off" length="point" rot="R180"/>
+<text x="0" y="2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">03</text>
+<text x="0" y="0" size="1.016" layer="94" font="vector" rot="MR0" align="center">04</text>
+<pin name="3" x="2.54" y="2.54" visible="off" length="point" rot="R180"/>
+<pin name="4" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="1.016" layer="94" font="vector" rot="MR0" align="center">05</text>
+<text x="0" y="-5.08" size="1.016" layer="94" font="vector" rot="MR0" align="center">06</text>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="5" x="2.54" y="-2.54" visible="off" length="point" rot="R180"/>
+<pin name="6" x="2.54" y="-5.08" visible="off" length="point" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X6" prefix="H">
+<gates>
+<gate name="G$1" symbol="1X6_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name=".LOCK" package="1X6.LOCK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13471,7 +13316,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="LOGO1" library="Spark" deviceset="OSHW-LOGO" device="S"/>
 <part name="R7" library="SparkFun" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7kΩ"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X6" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -13493,7 +13337,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="LCD1" library="microbuilder" deviceset="DISP_OLED_UG-2832HSWEG02" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="560kΩ"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="330kΩ"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
@@ -13501,14 +13345,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="SOD523"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="H1" library="headers(.1in)" deviceset="1X6" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <wire x1="33.02" y1="320.04" x2="33.02" y2="238.76" width="0.1524" layer="95" style="longdash"/>
 <text x="-17.78" y="236.22" size="3.81" layer="95">MCU</text>
-<text x="10.16" y="104.14" size="1.27" layer="91">Investigate if 3.3 VReg still needed, since the OLED already has one.</text>
 <text x="25.4" y="114.3" size="1.27" layer="91">Source : https://wiki.52pi.com/index.php/0.91_OLED_(English)</text>
+<text x="-48.26" y="147.32" size="1.778" layer="91">TODO : Why 5V and not 3V3?</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-20.32" y="287.02"/>
@@ -13524,7 +13370,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="R7" gate="C" x="7.62" y="203.2"/>
 <instance part="R7" gate="D" x="7.62" y="198.12"/>
 <instance part="+3V8" gate="G$1" x="30.48" y="220.98"/>
-<instance part="JP1" gate="A" x="-7.62" y="341.63"/>
 <instance part="+3V6" gate="G$1" x="-27.94" y="339.09" rot="R90"/>
 <instance part="SUPPLY2" gate="GND" x="-19.05" y="334.01"/>
 <instance part="P+3" gate="1" x="-5.08" y="175.26" rot="R90"/>
@@ -13554,6 +13399,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C7" gate="G$1" x="-2.54" y="137.16" rot="R90"/>
 <instance part="D3" gate="G$1" x="-20.32" y="134.62" rot="R180"/>
 <instance part="P+1" gate="1" x="-22.86" y="142.24"/>
+<instance part="+3V1" gate="G$1" x="2.54" y="152.4"/>
+<instance part="H1" gate="G$1" x="-13.97" y="341.63"/>
 </instances>
 <busses>
 </busses>
@@ -13577,9 +13424,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="-10.16" y1="336.55" x2="-19.05" y2="336.55" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="336.55" x2="-11.43" y2="336.55" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<pinref part="H1" gate="G$1" pin="6"/>
+<wire x1="-11.43" y1="336.55" x2="-19.05" y2="336.55" width="0.1524" layer="91"/>
+<junction x="-11.43" y="336.55"/>
 </segment>
 <segment>
 <wire x1="5.08" y1="165.1" x2="-2.54" y2="165.1" width="0.1524" layer="91"/>
@@ -13663,9 +13512,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="2.54" y1="208.28" x2="-15.24" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="-10.16" y1="341.63" x2="-19.05" y2="341.63" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="341.63" x2="-11.43" y2="341.63" width="0.1524" layer="91"/>
 <label x="-19.05" y="341.63" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="4"/>
+<wire x1="-11.43" y1="341.63" x2="-19.05" y2="341.63" width="0.1524" layer="91"/>
+<junction x="-11.43" y="341.63"/>
 </segment>
 </net>
 <net name="LED" class="0">
@@ -13742,9 +13593,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="30.48" y="213.36"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="-10.16" y1="339.09" x2="-25.4" y2="339.09" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="339.09" x2="-11.43" y2="339.09" width="0.1524" layer="91"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="H1" gate="G$1" pin="5"/>
+<wire x1="-11.43" y1="339.09" x2="-25.4" y2="339.09" width="0.1524" layer="91"/>
+<junction x="-11.43" y="339.09"/>
 </segment>
 <segment>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
@@ -13757,6 +13610,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="LCD1" gate="G$1" pin="VBAT"/>
+<wire x1="20.32" y1="144.78" x2="2.54" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="2.54" y1="149.86" x2="2.54" y2="144.78" width="0.1524" layer="91"/>
+<junction x="2.54" y="144.78"/>
 </segment>
 </net>
 <net name="ADCENA" class="0">
@@ -13773,9 +13634,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="7.62" y="304.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="-10.16" y1="349.25" x2="-19.05" y2="349.25" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="349.25" x2="-11.43" y2="349.25" width="0.1524" layer="91"/>
 <label x="-19.05" y="349.25" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="1"/>
+<wire x1="-11.43" y1="349.25" x2="-19.05" y2="349.25" width="0.1524" layer="91"/>
+<junction x="-11.43" y="349.25"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -13785,9 +13648,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="7.62" y="302.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="-10.16" y1="346.71" x2="-19.05" y2="346.71" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="346.71" x2="-11.43" y2="346.71" width="0.1524" layer="91"/>
 <label x="-19.05" y="346.71" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="2"/>
+<wire x1="-11.43" y1="346.71" x2="-19.05" y2="346.71" width="0.1524" layer="91"/>
+<junction x="-11.43" y="346.71"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -13804,9 +13669,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="7.62" y="299.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="-10.16" y1="344.17" x2="-19.05" y2="344.17" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="344.17" x2="-11.43" y2="344.17" width="0.1524" layer="91"/>
 <label x="-19.05" y="344.17" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="3"/>
+<wire x1="-11.43" y1="344.17" x2="-19.05" y2="344.17" width="0.1524" layer="91"/>
+<junction x="-11.43" y="344.17"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14004,13 +13871,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="LCD1" gate="G$1" pin="VDD"/>
 <wire x1="20.32" y1="137.16" x2="2.54" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LCD1" gate="G$1" pin="VBAT"/>
-<wire x1="20.32" y1="144.78" x2="2.54" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
