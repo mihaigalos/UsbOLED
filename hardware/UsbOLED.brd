@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00001" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -169,7 +169,7 @@
 <wire x1="10.94896875" y1="42.451540625" x2="1.14585" y2="42.47105" width="0.0001" layer="20"/>
 <wire x1="1.14585" y1="42.47105" x2="1.14585" y2="41.655340625" width="0.0001" layer="20"/>
 <text x="8.39958125" y="50.01691875" size="1.27" layer="20" rot="SR270">A</text>
-<text x="2.41631875" y="50.01691875" size="1.27" layer="20" rot="SR270">B</text>
+<text x="2.31631875" y="49.91691875" size="1.27" layer="20" rot="SR270">B</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2190,6 +2190,38 @@ design rules under a new name.</description>
 <wire x1="10.668" y1="34.1376" x2="10.795" y2="34.036" width="0.1524" layer="16"/>
 <via x="8.8392" y="16.9164" extent="1-16" drill="0.3"/>
 <via x="7.9248" y="13.2588" extent="1-16" drill="0.3"/>
+<via x="8.687971875" y="23.06558125" extent="1-16" drill="0.3"/>
+<via x="2.459684375" y="22.763603125" extent="1-16" drill="0.3"/>
+<via x="1.783634375" y="23.914003125" extent="1-16" drill="0.3"/>
+<via x="3.178884375" y="25.65399375" extent="1-16" drill="0.3"/>
+<via x="3.365875" y="29.00454375" extent="1-16" drill="0.3"/>
+<via x="5.667325" y="29.57974375" extent="1-16" drill="0.3"/>
+<via x="8.7886625" y="29.36404375" extent="1-16" drill="0.3"/>
+<via x="6.0131125" y="43.347184375" extent="1-16" drill="0.3"/>
+<via x="5.3916625" y="49.196984375" extent="1-16" drill="0.3"/>
+<via x="0.79984375" y="48.454975" extent="1-16" drill="0.3"/>
+<via x="10.82934375" y="48.489484375" extent="1-16" drill="0.3"/>
+<via x="11.2609125" y="43.95115625" extent="1-16" drill="0.3"/>
+<via x="10.245171875" y="40.729934375" extent="1-16" drill="0.3"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.25" y="9"/>
+<vertex x="12.25" y="9"/>
+<vertex x="12" y="50.5"/>
+<vertex x="0" y="50.5"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="0" y="9"/>
+<vertex x="12" y="9"/>
+<vertex x="12" y="50.5"/>
+<vertex x="0" y="50.5"/>
+</polygon>
+<via x="1.459684375" y="14.263603125" extent="1-16" drill="0.3"/>
+<via x="2.709684375" y="13.513603125" extent="1-16" drill="0.3"/>
+<via x="1.033634375" y="28.414003125" extent="1-16" drill="0.3"/>
+<via x="1.033634375" y="30.914003125" extent="1-16" drill="0.3"/>
+<via x="10.995171875" y="37.479934375" extent="1-16" drill="0.3"/>
+<via x="5.337971875" y="18.91558125" extent="1-16" drill="0.3"/>
+<via x="5.5131125" y="45.897184375" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="27"/>
