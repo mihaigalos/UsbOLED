@@ -13296,6 +13296,43 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="pusbbutton_4x2_5">
+<packages>
+<package name="PUSHBUTTON_4X2.5">
+<smd name="P$1" x="-1.27" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$2" x="2.159" y="0" dx="1.7" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.27" y1="1.397" x2="2.032" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.397" x2="2.032" y2="-1.397" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PUSHBUTTON_4X2.5">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<circle x="-1.778" y="0" radius="0.567959375" width="0.254" layer="94"/>
+<circle x="1.778" y="0" radius="0.567959375" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="1.27" y2="2.032" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PUSHBUTTON_4X2.5">
+<gates>
+<gate name="G$1" symbol="PUSHBUTTON_4X2.5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PUSHBUTTON_4X2.5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13342,6 +13379,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="H1" library="headers(.1in)" deviceset="1X6" device=""/>
+<part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
+<part name="U$3" library="pusbbutton_4x2_5" deviceset="PUSHBUTTON_4X2.5" device=""/>
+<part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
+<part name="U$1" library="pusbbutton_4x2_5" deviceset="PUSHBUTTON_4X2.5" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13390,6 +13431,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C5" gate="G$1" x="7.62" y="124.46" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="2.54" y="152.4"/>
 <instance part="H1" gate="G$1" x="-13.97" y="341.63"/>
+<instance part="SUPPLY32" gate="GND" x="-8.89" y="227.33" rot="R180"/>
+<instance part="U$3" gate="G$1" x="-8.89" y="219.71" rot="R90"/>
+<instance part="SUPPLY5" gate="GND" x="-24.13" y="227.33" rot="R180"/>
+<instance part="U$1" gate="G$1" x="-24.13" y="219.71" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13458,6 +13503,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="LCD1" gate="G$1" pin="VSS"/>
 <wire x1="-7.62" y1="139.7" x2="-7.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="139.7" x2="-7.62" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -13529,13 +13582,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="U1" gate="G$1" pin="PD6(AIN0/PC0A/PCINT22)"/>
 <wire x1="5.08" y1="248.92" x2="7.62" y2="248.92" width="0.1524" layer="91"/>
 <label x="7.62" y="248.92" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RIRQ" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PD2(INT0/PCINT18)"/>
-<wire x1="5.08" y1="259.08" x2="7.62" y2="259.08" width="0.1524" layer="91"/>
-<label x="7.62" y="259.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -13670,13 +13716,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="LCD1" gate="G$1" pin="SCL"/>
 <wire x1="20.32" y1="132.08" x2="12.7" y2="132.08" width="0.1524" layer="91"/>
 <label x="12.7" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PUSH" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PD3(INT1/OC2B/PCINT19)"/>
-<wire x1="5.08" y1="256.54" x2="7.62" y2="256.54" width="0.1524" layer="91"/>
-<label x="7.62" y="256.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -13857,6 +13896,30 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="LCD1" gate="G$1" pin="RES#"/>
 <label x="-17.78" y="134.62" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="20.32" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PUSHB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD2(INT0/PCINT18)"/>
+<wire x1="5.08" y1="259.08" x2="7.62" y2="259.08" width="0.1524" layer="91"/>
+<label x="7.62" y="259.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="-8.89" y1="214.63" x2="-11.43" y2="214.63" width="0.1524" layer="91"/>
+<label x="-11.43" y="214.63" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PUSHA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3(INT1/OC2B/PCINT19)"/>
+<wire x1="5.08" y1="256.54" x2="7.62" y2="256.54" width="0.1524" layer="91"/>
+<label x="7.62" y="256.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="-24.13" y1="214.63" x2="-26.67" y2="214.63" width="0.1524" layer="91"/>
+<label x="-26.67" y="214.63" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
